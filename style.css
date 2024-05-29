@@ -1,0 +1,116 @@
+
+/*
+this is red
+
+#FF0000
+
+
+this is black
+
+#000000
+*/
+
+
+
+
+
+
+
+
+
+
+
+img {
+width: 600px;
+}
+
+html {
+text-align: center;
+background:#000000;
+font-family:Comic Sans MS;
+}
+
+h1 {
+font-size: 70px;
+margin: 0;
+}
+
+h2 { 
+font-size: 50px;
+margin: 0;
+}
+
+h3 {
+font-size: 50px;
+margin: 0;
+}
+
+h4 {
+font-size: 50px;
+}
+
+h5 {
+font-size: 50px;
+}
+
+
+body {
+width: 800px;
+margin: 0 auto;
+background:#FF0000;
+padding: 20px;
+}
+
+ol, p {
+text-align: left;
+}
+
+
+ol, ul {
+padding: 0;
+}
+
+
+ul li {
+list-style: none;
+font-size: 30px;
+display: inline-block;
+width: 160px;
+margin: 0 10px;
+}
+
+li a {
+display: block;
+padding: 10px;
+background: #7D0000;
+color: black;
+text-decoration: none;
+border-radius: 10px;
+}
+
+li a:hover {
+background: crimson;
+transition: background 0.5s;
+}
+
+
+footer p {
+text-align: center;
+font-size: 12px;
+}
+
+
+@media only screen and (max-device width: 480px) {
+text-size: 150px;
+
+
+
+ul li {
+width: 230px;
+font-size: 40px;
+}
+
+
+
+
+}
